@@ -262,7 +262,7 @@ h1 {
 }
 
 .text {
-  background-color: #b8bfc1;
+  background-color: #252324;
   padding: 1%;
 }
 
@@ -287,10 +287,11 @@ h1 {
 
 .card {
 	margin: auto;
-	background-color: #ffffff;
+	background-color: #484347;
 	padding: 1%;
 	font-size: 20px;
 	width: 50%;
+	color: #ffffff;
 }
 
 .footerbody {
@@ -304,4 +305,11 @@ h1 {
 	padding: 1%;
 	background-color: #242424;
 	width: 30%;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.darkcard {
+		height; auto;
+	}
 }
